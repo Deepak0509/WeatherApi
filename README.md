@@ -47,7 +47,7 @@ the user is typing suggestions are provided which help the user. But I couldn't 
 
 Currently the website only gives weather information only if the user types the correct spelling of the location, it doesn't inform the user if he/she commits a mistake while
 typing the location. So informing the user that the typed location is not correct or there is a spelling mistake so that he/she can correct the mistake. Or to eradicate this 
-error by adding autocomplete so that the user gets a correct response everytiem. Styling the website so that it is more responsive and good looking. 
+error by adding autocomplete so that the user gets a correct response everytime. Styling the website so that it is more responsive and good looking. 
 Providing an option to save few places so that user can get the weather of those locations by clicking on them instead so typing the location.
 
 <hr>
