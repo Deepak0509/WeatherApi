@@ -13,11 +13,11 @@ function setQuery(evt) {
 }
 
 function getResults(query) {
-    fetch(`http://api.openweathermap.org/data/2.5/forecast?q=${query}&appid=${api.key}`)
+    fetch(`https://api.openweathermap.org/data/2.5/forecast?q=${query}&appid=${api.key}`)
         .then(weather => {
             return weather.json();
         }).then(displayResults);
-    fetch(`http://api.openweathermap.org/data/2.5/weather?q=${query}&appid=${api.key}`)
+    fetch(`https://api.openweathermap.org/data/2.5/weather?q=${query}&appid=${api.key}`)
         .then(weather => {
             return weather.json();
         }).then(displayCurrentWeather);
@@ -135,11 +135,11 @@ function locationWeather() {
 
     function getWeather(latitude, longitude) {
 
-        fetch(`http://api.openweathermap.org/data/2.5/forecast?lat=${latitude}&lon=${longitude}&appid=${api.key}`)
+        fetch(`https://api.openweathermap.org/data/2.5/forecast?lat=${latitude}&lon=${longitude}&appid=${api.key}`)
             .then(weather => {
                 return weather.json();
             }).then(displayResultsLocation);
-        fetch(`http://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${api.key}`)
+        fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${api.key}`)
             .then(weather => {
                 return weather.json();
             }).then(displayCurrentWeatherLocation);
