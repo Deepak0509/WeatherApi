@@ -16,7 +16,7 @@
 
 1. Fetching Latitude and Longitude of given location through API call.
 2. Fetching weather of given location through API call.
-3. Fetching  location's weather for past days and upcoming weather forecast for a given location.
+3. Fetching weather for past days and upcoming weather forecast for a given location.
 
 <hr>
 
